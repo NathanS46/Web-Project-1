@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <body style="background-color: paleturquoise"></body>
+    <h1>Please fill out this form</h1>
+    <form action="done.html">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" required /><br /><br />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" required /><br /><br />
+
+      <input type="checkbox" id="pc1" name="pc1" value="Laptop" />
+      <label for="pc1"> I have a Laptop</label><br />
+      <input type="checkbox" id="pc2" name="pc2" value="Phone" />
+      <label for="pc2"> I have a Phone</label><br />
+      <input type="checkbox" id="pc3" name="pc3" value="Desktop" />
+      <label for="pc3"> I have a Desktop</label><br />
+      <input type="checkbox" id="pc4" name="pc4" value="Tablet" />
+      <label for="pc4"> I have a tablet</label><br />
+      <input type="checkbox" id="pc5" name="pc5" value="Watch" />
+      <label for="pc5"> I have a Smart watch</label><br />
+      <input type="checkbox" id="pc6" name="pc6" value="Cal" />
+      <label for="pc6"> I have a Calculator</label><br />
+
+      <hr />
+      <h2>Pick The type of phone you have</h2>
+
+      <input type="radio" id="Apple" name="fav" value="Apple" />
+      <label for="Apple">Apple</label><br />
+      <input type="radio" id="Samsung" name="fav" value="Samsung" />
+      <label for="Samsung">Samsung</label><br />
+      <input type="radio" id="Other" name="fav" value="Other" />
+      <label for="Other">Other</label><br />
+      <hr />
+      <label for="appt">Input the current time:</label>
+      <input type="time" id="appt" name="appt" /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
